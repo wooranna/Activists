@@ -1936,15 +1936,6 @@ blockquote {
   color: #273769;
   margin-bottom: 15px;
 }
-.cid-rVKm2LJaTN .mbr-section-title .verline {
-  margin: 0 15px;
-  display: inline-block;
-  height: 3px;
-  border-radius: 5px;
-  width: 100px;
-  vertical-align: middle;
-  background-color: currentColor;
-}
 .cid-rVKm2LJaTN .button {
   display: flex;
   justify-content: flex-end;
