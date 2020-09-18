@@ -1612,11 +1612,6 @@ blockquote {
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
-@media (min-width: 768px) {
-  .cid-rVMaoT85d6 .showArrow {
-    padding-bottom: 115px;
-  }
-}
 .cid-rVMaoT85d6 .card-inner {
   background: #fbfcff;
   border: 1px solid #e9e9e9;
@@ -2063,6 +2058,10 @@ blockquote {
   border-radius: 50%;
   background-color: #273769;
   animation: animationTwo 26s infinite linear;
+}
+.cid-rVKm2LJaTN .card__title,
+.cid-rVKm2LJaTN .card__wrap .mbr-section-btn {
+  text-align: center;
 }
 .cid-rVKhX2d2on {
   padding-top: 5rem;
