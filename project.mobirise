@@ -43,7 +43,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 14,
+    "uniqCompNum": 15,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -1060,7 +1060,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Animation\" name=\"showAnimation\" checked>\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Subtext\" name=\"showsubText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Image Effect\" name=\"showImageEffect\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background/backgraund__trend.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ff2121\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"animation__background\" mbr-if=\"showAnimation\">\n        <div class=\"circle1\"></div>\n        <div class=\"circle2\"></div>\n        <img src=\"../_images/figure/triangle_purpl_transp.svg\" class=\"triangle\" alt>\n    </div>\n    \n    <div class=\"image__background\" mbr-if=\"showImageEffect\">\n        <div class=\"circle__image1\"></div>\n        <div class=\"circle__image2\"></div>\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"title__block col-lg-6\">\n                <h4 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">ABOUT US</h4>\n               <h3 class=\"mbr-section-title mbr-medium mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Our Grade's Activism!</h3>\n                <p class=\"mbr-subtext mbr-fonts-style\" mbr-if=\"showsubText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-subtext\"><i>Everything has its own nuances!</i></p>\n              <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">Melbourne is currently in lockdown and students have had 2 remote learning periods. This year our whole grade's project term was Activism. The students at Wooranna have been showing activism by making the lockdown fun for others, continuing doing their work, learning how to cope with google meet and other sites, entering online tournaments such as the ATOM film festival and Dorothea Mackellar Poem Competition, starting their own businesses and much more.<br></p>\n              \n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-warning\" href=\"#\" data-app-placeholder=\"Type Text\">Sign up for a lesson</a></div>\n            </div>\n            \n            <div class=\"col-lg-6 wrap__image\">\n                <div class=\"image__block1\">\n                    <div class=\"image\">\n                        <img src=\"@PROJECT_PATH@/assets/images/family-school-1-800x1200.jpg\" alt title>\n                    </div>\n                </div>\n                <div class=\"image__block2\">\n                    <div class=\"image\" mbr-if=\"showImageEffect\">\n                        <img src=\"@PROJECT_PATH@/assets/images/family-school2-1-680x1020.jpg\" alt title>\n                    </div>\n                </div>\n            </div>\n        </div>\n        \n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Animation\" name=\"showAnimation\" checked>\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Subtext\" name=\"showsubText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Image Effect\" name=\"showImageEffect\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background/backgraund__trend.jpg\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ff2121\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"animation__background\" mbr-if=\"showAnimation\">\n        <div class=\"circle1\"></div>\n        <div class=\"circle2\"></div>\n        <img src=\"../_images/figure/triangle_purpl_transp.svg\" class=\"triangle\" alt>\n    </div>\n    \n    <div class=\"image__background\" mbr-if=\"showImageEffect\">\n        <div class=\"circle__image1\"></div>\n        <div class=\"circle__image2\"></div>\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"title__block col-lg-6\">\n                <h4 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">ABOUT US</h4>\n               <h3 class=\"mbr-section-title mbr-medium mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Our School's Activism!</h3>\n                <p class=\"mbr-subtext mbr-fonts-style\" mbr-if=\"showsubText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-subtext\"><i>Everything has its own nuances!</i></p>\n              <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">Melbourne is currently in lockdown and students have had 2 remote learning periods. This year our whole grade's project term was Activism. The students at Wooranna have been showing activism by making the lockdown fun for others, continuing doing their work, learning how to cope with google meet and other sites, entering online tournaments such as the ATOM film festival and Dorothea Mackellar Poem Competition, starting their own businesses and much more.<br></p>\n              \n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-warning\" href=\"#\" data-app-placeholder=\"Type Text\">Sign up for a lesson</a></div>\n            </div>\n            \n            <div class=\"col-lg-6 wrap__image\">\n                <div class=\"image__block1\">\n                    <div class=\"image\">\n                        <img src=\"@PROJECT_PATH@/assets/images/family-school-1-800x1200.jpg\" alt title>\n                    </div>\n                </div>\n                <div class=\"image__block2\">\n                    <div class=\"image\" mbr-if=\"showImageEffect\">\n                        <img src=\"@PROJECT_PATH@/assets/images/family-school2-1-680x1020.jpg\" alt title>\n                    </div>\n                </div>\n            </div>\n        </div>\n        \n    </div>\n</section>",
           "_cid": "rVKhV3njsK",
           "_anchor": "content4-3",
           "_PHPplaceholders": [],
@@ -1967,7 +1967,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Bailey's gem necklace called \"GEMZ 12\"",
+                "caption": "Bailey's gem necklace called \"GEMZ 12\"!",
                 "active": false
               },
               {
@@ -1980,7 +1980,311 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Amyliah's entry&nbsp;",
+                "caption": "Amyliah's entry for J.K Rowling's The Ickabog!<br>",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-gallery-filter": {
+              "text-align": "left",
+              "ul": {
+                "position": "relative",
+                "@media (min-width: 768px)": {
+                  "margin": "5px 0 60px",
+                  "padding-left": "190px",
+                  "&:before": {
+                    "content": "''",
+                    "width": "150px",
+                    "height": "2px",
+                    "position": "absolute",
+                    "top": "20px",
+                    "left": "0",
+                    "background": "@warningColor"
+                  }
+                },
+                "li": {
+                  "padding": "0",
+                  "a.btn": {
+                    "border": "none !important",
+                    "margin": "0",
+                    "font-size": "24px",
+                    "min-width": "auto !important",
+                    "background": "transparent !important",
+                    "box-shadow": "none",
+                    "@media (max-width: 767px)": {
+                      "margin-right": "35px"
+                    },
+                    "&:before": {
+                      "background": "transparent !important"
+                    },
+                    "&:hover": {
+                      "background-color": "transparent !important",
+                      "color": "@warningColor !important"
+                    }
+                  },
+                  "&.active .btn": {
+                    "background-color": "transparent !important",
+                    "color": "@warningColor !important"
+                  }
+                }
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "overflow": "hidden",
+              "img": {
+                "height": "420px",
+                "width": "100%",
+                "object-fit": "cover",
+                "transition": "all 0.3s ease-in-out"
+              },
+              ".icon-focus": {
+                "top": "auto",
+                "bottom": "0",
+                "left": "50%",
+                "transform": "translateX(-50%)",
+                "font-size": "30px !important",
+                "transition": "all 0.3s ease-in-out",
+                "font-family": "'FontAwesome' !important",
+                "&:before": {
+                  "content": "\"\\f00e\""
+                }
+              },
+              "&:after": {
+                "content": "''",
+                "position": "absolute",
+                "top": "30px",
+                "right": "30px",
+                "bottom": "30px",
+                "left": "30px",
+                "opacity": "0",
+                "border": "1px solid #fff",
+                "z-index": "2",
+                "transition": "0.5s opacity ease-in-out"
+              }
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b",
+              "border-radius": "0"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "z-index": "2",
+              "-webkit-transition": "0.3s opacity ease-in-out",
+              "transition": "0.3s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div > span": {
+              "color": "contrast(@overlayColor)"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:after": {
+                "opacity": "1"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              },
+              "img": {
+                "transform": "scale3d(1.1, 1.1, 1)"
+              },
+              ".icon-focus": {
+                "bottom": "33%",
+                "& when not (@gallery__showText)": {
+                  "bottom": "50%"
+                }
+              },
+              ".mbr-gallery-title": {
+                "display": "block",
+                "opacity": "1",
+                "position": "absolute",
+                "width": "100%",
+                "bottom": "40%",
+                "padding": "35px",
+                "font-weight": "500",
+                "text-align": "center",
+                "z-index": "5",
+                "transition": "bottom 0.3s ease-in-out",
+                "&:before": {
+                  "content": "\"\"",
+                  "width": "100%",
+                  "height": "100%",
+                  "top": "0",
+                  "left": "0",
+                  "z-index": "-1",
+                  "position": "absolute",
+                  "background": "transparent",
+                  "transition": "0.3s background ease-in-out"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "opacity": "0",
+              "left": "0",
+              "bottom": "0",
+              "position": "absolute"
+            },
+            ".modal-body .close": {
+              "top": "0",
+              "right": "0",
+              "border-radius": "0",
+              "font-size": "16px",
+              "line-height": "40px",
+              "width": "40px",
+              "height": "40px"
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel gallery\" group=\"Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo, font-awesome\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <header>Gallery</header>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f47b5b\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#bf6cff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery1-e",
+          "_isUserblock": true,
+          "_sourceTheme": "modernm4",
+          "_cid": "sbjFEURUw9",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/isaacs-climbing-colour-1665x1244.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/isaacs-climbing-colour-1665x1244-800x598.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Isaac from Grade 1 enjoying Climbing Colours!",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/ijdwid-263x452.png",
+                "thumb": "@PROJECT_PATH@/assets/images/ijdwid-263x452-263x452.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Shawn doing the science experiment Water Fireworks!",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/jbkjwd-273x361.png",
+                "thumb": "@PROJECT_PATH@/assets/images/jbkjwd-273x361-273x361.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Aliha enjoying the magic flowers experiment!",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20200729-190945-2000x1507.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20200729-190945-2000x1507-800x603.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Keilani's winning entry for Amyliah's Colouring in Competition!",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-1435-1125x1553.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1435-1125x1553-780x1325.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Eden from prep's entry for the colouring in competition!",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/jdirffh-725x690.png",
+                "thumb": "@PROJECT_PATH@/assets/images/jdirffh-725x690-725x690.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bailey from Grade 3's rock tumbler jewellery that are handmade!",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gems-333x440.png",
+                "thumb": "@PROJECT_PATH@/assets/images/gems-333x440-333x440.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Bailey's gem necklace called \"GEMZ 12\"!",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/annotation-2020-07-17-192007-597x597.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/annotation-2020-07-17-192007-597x597-597x597.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Amyliah's entry for J.K Rowling's The Ickabog!<br>",
                 "active": false
               }
             ]
